@@ -25,6 +25,7 @@ export function Assignments(props: any) {
               isDeleted: boolean;
               isCompleted: boolean;
               isSelected: boolean;
+              dueDate: Date;
             },
             index: number
           ) => {
